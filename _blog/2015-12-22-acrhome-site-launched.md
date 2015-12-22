@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: "Andy, acrhome, Launches Site"
 date: 2015-12-22
 ---
