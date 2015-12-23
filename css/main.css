@@ -1,74 +1,44 @@
 body {
-  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
-  background: black;
-  color: #ececec;
-  padding: 0;
-  margin: 0;
+    margin: 60px auto;
+    width: 70%;
 }
-ul {
-  margin: 0;
-  padding: 0;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
 a {
-  color: #ccc;
-  text-decoration: none;
+    text-decoration: none;
+    color: #999;
 }
- 
 a:hover {
-  color: #ececec;
-  text-decoration: underline;
-}
- 
-#main {
-  width: 960px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.4);
-}
-header {
-  padding: 0 10px;
-  overflow: hidden;
+    text-decoration: underline;
 }
 h1 {
-  margin: 0;
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
- 
-nav ul, ul.entries {
-  list-style-type: none;
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
-nav li a {
-  float: left;
-  margin: 5px; 
-}
-.content {
-  padding: 10px;
-}
- 
-ul.entries li {
-  position: relative;
-  margin: 20px auto;
-  padding: 20px;
-  background: #ececec;
-  width: 600px;
-}
- 
-ul.entries img {
-  width: 600px;
-}
- 
-ul.entries li h3 {
-  position: absolute;
-  bottom: -18px;
-  left: 17px;
-  font-size: 2em;
-}
-ul.entries a {
-  color: #ececec;
-}
-ul.entries a:hover {
-  color: #fff;
-}
- 
 footer {
-  font-size: 0.65em;
-  text-align: center;
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+img.avatar { margin-bottom: 60px; }
