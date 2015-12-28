@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Andy, ACRHOME"
+date: 2015-12-28
+---
 Setting up the VNC server to connect Raspberry Pi to laptop display
 
 If you have an HDMI display: Using the connected HDMI display on your pi, you should install VNC server in raspberry pi. Open the LX-Terminal and type the following commands to install VNC:
